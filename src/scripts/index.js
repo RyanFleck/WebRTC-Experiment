@@ -1,6 +1,8 @@
 import '../styles/index.scss';
 import adapter from 'webrtc-adapter';
-import './sim/testing.js';
+import './test/videophone.js';
+
+console.log("Loaded index.js");
 
 const connectButton = document.querySelector('button#connect-button');
 const sendPane = document.querySelector('textarea#send-pane');
@@ -25,22 +27,5 @@ sendButton.onclick = function () {
     console.log(`Send-${++send_counter}`);
 };
 
-const mediaStreamConstraints = {
-    video: true,
-    audio: true,
-};
 
-const localVideo = document.querySelector('video');
-let localStream;
-
-function gotLocalMediaStream (mediaStream) { 
-    localStream = mediaStream;
-    localVideo.srcObject = mediaStream;
-}
-
-function handleLocalMediaStreamError(error) {
-  console.log('navigator.getUserMedia error: ', error);
-}
-
-navigator.mediaDevices.getUserMedia(mediaStreamConstraints)
-  .then(gotLocalMediaStream).catch(handleLocalMediaStreamError);
+/* Stream Video with RTCPeerConnection */

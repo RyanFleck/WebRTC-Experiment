@@ -12,7 +12,16 @@
   <h1>WebRTC Experiment</h1>
 
   <h3>Video:</h3>
-  <video autoplay playsinline></video>
+  <video id="localVideo" autoplay playsinline></video>
+  <video id="remoteVideo" autoplay playsinline></video>
+
+  <div>
+    <button id="startButton">Start</button>
+    <button id="callButton">Call</button>
+    <button id="hangupButton">Hang Up</button>
+  </div>
+
+  <br />
 
   <div id="connection-stuff">
     <button id="connect-button">Connect</button>
