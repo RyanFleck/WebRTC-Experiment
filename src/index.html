@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <title>WebRTC Experiments</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+  <meta id="theme-color" name="theme-color" content="#ffffff">
 </head>
+
 <body>
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+  <h1>WebRTC Experiment</h1>
+
+  <div id="connection-stuff">
+    <button id="connect-button">Connect</button>
+  </div>
+
+  <div id="p2p-stuff" style="display:none">
+    <h3>Send:</h3>
+    <textarea id="send-pane"></textarea>
+
+    <br />
+    <button id="send-button">Send</button>
+
+    <br />
+    <h3>Recieve:</h3>
+    <textarea id="recieve-pane" disabled></textarea>
+  </div>
+
+  <p id="browser-info"></p>
 </body>
+
 </html>

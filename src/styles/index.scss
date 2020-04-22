@@ -1,6 +1,24 @@
-$body-color: slateblue;
+$base-font-size: 20px;
+$base-text-color: #111;
+$base-background-color: #EFEFEF;
 
-body {
-  color: $body-color;
-  font-family: sans-serif;
+html {
+  font-size: $base-font-size;
+  color: $base-text-color;
+  background: $base-background-color;
+}
+
+html,
+button,
+textarea {
+  font-family: monospace;
+}
+
+button,
+textarea {
+  font-size: $base-font-size;
+  color: $base-text-color;
+  background: $base-background-color;
+  border: 1px solid #222;
+  border-radius: 5px;
 }

@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
-    "core-js": "^3.6.5"
+    "core-js": "^3.6.5",
+    "webrtc-adapter": "^7.5.1"
   }
 }
