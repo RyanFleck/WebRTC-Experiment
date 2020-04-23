@@ -3,16 +3,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/48309fc1-6166-416d-87c4-5f81281e0b03/deploy-status)](https://app.netlify.com/sites/rcf-webrtc-experiment/deploys)
 
 
-
-## Uses Webpack Frontend Starterkit
-
-[![Dependabot badge](https://flat.badgen.net/dependabot/wbkd/webpack-starter?icon=dependabot)](https://dependabot.com/)
-
-A lightweight foundation for your next webpack based frontend project.
-
-
-### Installation
-
 ```
 npm install
 ```
