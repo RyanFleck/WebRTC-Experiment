@@ -1,6 +1,7 @@
 import '../styles/index.scss';
 import adapter from 'webrtc-adapter';
 import './test/videophone.js';
+import './test/serverless-peers.js';
 
 console.log("Loaded index.js");
 

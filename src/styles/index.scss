@@ -3,6 +3,8 @@ $base-text-color: #111;
 $base-background-color: #EFEFEF;
 $base-border-radius: 7px;
 $base-border: 2px solid black;
+$accent-color: darkorchid;
+$secondary-accent: #e8d1f2;
 
 html {
   font-size: $base-font-size;
@@ -24,6 +26,22 @@ textarea {
   background: $base-background-color;
   border: $base-border;
   border-radius: $base-border-radius;
+  box-shadow: 0 5px $base-text-color;
+  padding: 3px 10px;
+}
+
+button {
+  background: $secondary-accent;
+}
+
+button:hover {
+  color: white;
+  background: $accent-color;
+}
+
+button:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px $base-text-color;
 }
 
 video {
@@ -33,28 +51,30 @@ video {
   min-height: 225px;
   border: $base-border;
   border-radius: $base-border-radius;
+  margin: 5px;
 }
 
-#latex-body-wrap{
+#latex-body-wrap {
   margin: 0 auto;
   max-width: 700px;
   padding: 5px;
 }
 
-#title {
-  color: darkorchid;
+h1, h2, h3, h4, h5 {
+  color: black;
+  text-shadow: 2px 2px $secondary-accent;
 }
 
 a {
-  color: darkorchid;
+  color: $accent-color;
   text-decoration: none;
 }
 
-.centered{
+.centered {
   text-align: center;
 }
 
-hr{
+hr {
   border: 1px dashed $base-text-color;
   margin: 2em 0em;
 }
