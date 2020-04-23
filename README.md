@@ -2,6 +2,10 @@
 
 ![Videophone experiment.](public/videophone.png)
 
+This is a testing ground for the latest in WebRTC. I'd like to create a
+few decentralized applications, and WebRTC has the potential (through
+projects like WebTorrent) to bring peer-to-peer tech to the masses.
+
 ### Resources:
 
 1. [Google Codelabs: WebRTC](https://codelabs.developers.google.com/codelabs/webrtc-web)

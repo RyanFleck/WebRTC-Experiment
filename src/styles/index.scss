@@ -8,6 +8,7 @@ html {
   font-size: $base-font-size;
   color: $base-text-color;
   background: $base-background-color;
+  overflow-y: scroll;
 }
 
 html,
@@ -42,6 +43,11 @@ video {
 
 #title {
   color: darkorchid;
+}
+
+a {
+  color: darkorchid;
+  text-decoration: none;
 }
 
 .centered{
