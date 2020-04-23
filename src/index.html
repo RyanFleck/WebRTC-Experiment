@@ -9,39 +9,47 @@
 </head>
 
 <body>
-  <h1>WebRTC Experiment</h1>
+  <div id="latex-body-wrap">
+    <h1 id="title">WebRTC Experiment</h1>
 
-  <h3>Video:</h3>
-  <video id="localVideo" autoplay playsinline></video>
-  <video id="remoteVideo" autoplay playsinline></video>
+    <h3>Video:</h3>
 
-  <div>
-    <button id="startButton">Start</button>
-    <button id="callButton">Call</button>
-    <button id="hangupButton">Hang Up</button>
-  </div>
+    <div class="centered">
+      <video id="localVideo" autoplay playsinline></video>
+      <video id="remoteVideo" autoplay playsinline></video>
+    </div>
 
-  <br />
+    <div class="centered">
+      <button id="startButton">Start</button>
+      <button id="callButton">Call</button>
+      <button id="hangupButton">Hang Up</button>
+    </div>
 
-  <div id="connection-stuff">
-    <button id="connect-button">Connect</button>
-  </div>
-
-  <div id="p2p-stuff" style="display:none">
-
-    <h3>Send:</h3>
-    <textarea id="send-pane"></textarea>
+    <hr />
 
     <br />
-    <button id="send-button">Send</button>
 
-    <br />
-    <h3>Recieve:</h3>
-    <textarea id="recieve-pane" disabled></textarea>
+    <div id="connection-stuff">
+      <button id="connect-button">Connect</button>
+    </div>
+
+    <div id="p2p-stuff" style="display:none">
+
+      <h3>Send:</h3>
+      <textarea id="send-pane"></textarea>
+
+      <br />
+      <button id="send-button">Send</button>
+
+      <br />
+      <h3>Recieve:</h3>
+      <textarea id="recieve-pane" disabled></textarea>
+    </div>
+
+    <p id="browser-info"></p>
+    <p id="repo-info">Repository: <a
+        href="https://github.com/RyanFleck/WebRTC-Experiment">RyanFleck/WebRTC-Experiment</a></p>
   </div>
-
-  <p id="browser-info"></p>
-  <p id="repo-info">Repository: <a href="https://github.com/RyanFleck/WebRTC-Experiment">RyanFleck/WebRTC-Experiment</a></p>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-$base-font-size: 20px;
+$base-font-size: 18px;
 $base-text-color: #111;
 $base-background-color: #EFEFEF;
 $base-border-radius: 7px;
@@ -32,4 +32,23 @@ video {
   min-height: 225px;
   border: $base-border;
   border-radius: $base-border-radius;
+}
+
+#latex-body-wrap{
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 5px;
+}
+
+#title {
+  color: darkorchid;
+}
+
+.centered{
+  text-align: center;
+}
+
+hr{
+  border: 1px dashed $base-text-color;
+  margin: 2em 0em;
 }
