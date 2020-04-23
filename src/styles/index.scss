@@ -1,6 +1,8 @@
 $base-font-size: 20px;
 $base-text-color: #111;
 $base-background-color: #EFEFEF;
+$base-border-radius: 7px;
+$base-border: 2px solid black;
 
 html {
   font-size: $base-font-size;
@@ -19,8 +21,8 @@ textarea {
   font-size: $base-font-size;
   color: $base-text-color;
   background: $base-background-color;
-  border: 1px solid #222;
-  border-radius: 5px;
+  border: $base-border;
+  border-radius: $base-border-radius;
 }
 
 video {
@@ -28,4 +30,6 @@ video {
   width: 300px;
   background: black;
   min-height: 225px;
+  border: $base-border;
+  border-radius: $base-border-radius;
 }

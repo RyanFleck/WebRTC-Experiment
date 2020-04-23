@@ -1,7 +1,6 @@
-# WebRTC Experiments
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/48309fc1-6166-416d-87c4-5f81281e0b03/deploy-status)](https://app.netlify.com/sites/rcf-webrtc-experiment/deploys)
 
+![Videophone experiment.](public/videophone.png)
 
 ```
 npm install
