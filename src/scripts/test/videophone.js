@@ -1,5 +1,7 @@
 console.log("Loaded videophone.js");
 
+// https://codelabs.developers.google.com/codelabs/webrtc-web/#4
+
 // Set up media stream constant and parameters.
 
 // In this codelab, you will be streaming video only: "video: true".

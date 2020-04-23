@@ -2,9 +2,9 @@
 
 ![Videophone experiment.](public/videophone.png)
 
-```
-npm install
-```
+### Resources:
+
+1. [Google Codelabs: WebRTC](https://codelabs.developers.google.com/codelabs/webrtc-web)
 
 ### Start Dev Server
 
@@ -17,6 +17,8 @@ npm start
 ```
 npm run build
 ```
+
+
 
 ### Features:
 
